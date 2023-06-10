@@ -12,6 +12,7 @@
       color: #333;
       font-size: 24px;
       margin-bottom: 10px;
+      text-align: center;
     }
     
     p {
@@ -21,6 +22,8 @@
     }
     
     .download-button {
+      display: block;
+      margin: 0 auto;
       padding: 10px 20px;
       background-color: #007bff;
       color: #fff;
@@ -42,6 +45,9 @@
 </head>
 <body>
   <h1>Scripter V-1.01 By SamTime101</h1>
+  
+  <button class="download-button" onclick="downloadFile()">Download Scripter</button>
+  
   <p>
     Scripter is a command-line program that allows you to enter editor mode and save the changes. It provides a basic text editor experience with features such as navigating through the text, inserting new lines, and saving the changes to a file. Mainly created for HTML CSS AND JS. Create your own programming experience with Scripter!
   </p>
@@ -94,7 +100,7 @@
   <p>
     The program allows you to customize highlight colors for specific words. By default, the following word-color mappings are provided:
   </p>
-  <table border="2" width = "40%">
+  <table>
     <tr>
       <th>Word</th>
       <th>Color</th>
@@ -152,7 +158,5 @@
   <p>You can modify these mappings or add your own by editing the highlightColors dictionary in the source code.</p>
   
   <p>SamTime101</p>
-  
-  <button class="download-button" onclick="downloadFile()">Download Scripter</button>
 </body>
 </html>
