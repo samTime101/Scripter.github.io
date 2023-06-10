@@ -1,8 +1,158 @@
+<!DOCTYPE html>
 <html>
-<head>                                             
-<title>Scripter CLI text editor</title>  
+<head>
+  <title>Scripter V-1.01 By SamTime101</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    
+    h1 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    p {
+      color: #666;
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    
+    .download-button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    .download-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+  <script>
+    function downloadFile() {
+      window.location.href = 'https://github.com/samTime101/Scripter-Text-Editor/archive/refs/heads/main.zip';
+    }
+  </script>
 </head>
 <body>
-<p>SCRIPTER V 1.01</p> 
+  <h1>Scripter V-1.01 By SamTime101</h1>
+  <p>
+    Scripter is a command-line program that allows you to enter editor mode and save the changes. It provides a basic text editor experience with features such as navigating through the text, inserting new lines, and saving the changes to a file. Mainly created for HTML CSS AND JS. Create your own programming experience with Scripter!
+  </p>
+  
+  <h2>Getting Started</h2>
+  <h3>Prerequisites</h3>
+  <p>.NET Framework</p>
+  
+  <h3>Installation</h3>
+  <p>
+    Clone the repository or download the source code.<br>
+    Build the program using the .NET Framework.<br>
+    OR<br>
+    Click on code dropdown and download Zip<br>
+    Extract ZIP and run Scripter.exe<br>
+    You may have to continue the Windows defender during the running or download the code, if you feel any suspicious on code feel free to check the CODE in Github codespaces
+  </p>
+  
+  <h2>Usage</h2>
+  <p>
+    To run the program, use the following command:
+  </p>
+  
+  <h2>Editor Mode</h2>
+  <p>
+    In editor mode, you can start typing and edit the text. The following keyboard shortcuts are available:
+  </p>
+  <ul>
+    <li>Ctrl + S: Save the changes and exit the editor mode.</li>
+    <li>Ctrl + X: Exit the editor mode without saving the changes.</li>
+    <li>Backspace: Delete the previous character.</li>
+    <li>Left Arrow: Move the cursor one position to the left.</li>
+    <li>Right Arrow: Move the cursor one position to the right.</li>
+    <li>Up Arrow: Move the cursor one line up.</li>
+    <li>Down Arrow: Move the cursor one line down.</li>
+    <li>Enter: Insert a new line.</li>
+  </ul>
+  
+  <h2>Opening a File</h2>
+  <p>
+    To open a file, select the option "I" and provide the path of the file when prompted. If the file exists, its content will be loaded into the editor mode, allowing you to make changes.
+  </p>
+  
+  <h2>Saving a File</h2>
+  <p>
+    When in editor mode, you can save the changes to a file by using the "Ctrl + S" shortcut. You will be prompted to enter the file name (including the extension). The file will be saved, and you will have the option to open the saved file.
+  </p>
+  
+  <h2>Customizing Highlight Colors</h2>
+  <p>
+    The program allows you to customize highlight colors for specific words. By default, the following word-color mappings are provided:
+  </p>
+  <table>
+    <tr>
+      <th>Word</th>
+      <th>Color</th>
+    </tr>
+    <tr>
+      <td>&lt;html&gt;</td>
+      <td>Dark Blue</td>
+    </tr>
+    <tr>
+      <td>&lt;/html&gt;</td>
+      <td>Dark Blue</td>
+    </tr>
+    <tr>
+      <td>&lt;head&gt;</td>
+      <td>Blue</td>
+    </tr>
+    <tr>
+      <td>&lt;/head&gt;</td>
+      <td>Blue</td>
+    </tr>
+    <tr>
+      <td>&lt;title&gt;</td>
+      <td>Red</td>
+    </tr>
+    <tr>
+      <td>&lt;/title&gt;</td>
+      <td>Red</td>
+    </tr>
+    <tr>
+      <td>&lt;body&gt;</td>
+      <td>Dark Green</td>
+    </tr>
+    <tr>
+      <td>&lt;/body&gt;</td>
+      <td>Dark Green</td>
+    </tr>
+    <tr>
+      <td>&lt;table&gt;</td>
+      <td>Dark Red</td>
+    </tr>
+    <tr>
+      <td>&lt;/table&gt;</td>
+      <td>Dark Red</td>
+    </tr>
+    <tr>
+      <td>&lt;marquee&gt;</td>
+      <td>Dark Yellow</td>
+    </tr>
+    <tr>
+      <td>&lt;/marquee&gt;</td>
+      <td>Dark Yellow</td>
+    </tr>
+  </table>
+  
+  <p>You can modify these mappings or add your own by editing the highlightColors dictionary in the source code.</p>
+  
+  <p>SamTime101</p>
+  
+  <button class="download-button" onclick="downloadFile()">Download Scripter</button>
 </body>
-</html> 
+</html>
