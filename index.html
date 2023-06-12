@@ -37,6 +37,17 @@
       background-color: #0056b3;
     }
     
+    .video-container {
+      display: flex;
+      justify-content: center;
+      margin: 20px auto;
+    }
+    
+    .video-container iframe {
+      width: 744px;
+      height: 504px;
+    }
+    
     table {
       border-collapse: collapse;
       margin-bottom: 20px;
@@ -69,7 +80,11 @@
   <h1>Scripter V-1.01 By SamTime101</h1>
   
   <button class="download-button" onclick="downloadFile()">Download Scripter</button>
-  <iframe src="https://www.veed.io/embed/b6ffee7f-30e6-4264-881b-6d9d411112ce" width="744" height="504" frameborder="0" title="scripter" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+  <div class="video-container">
+    <iframe src="https://www.veed.io/embed/b6ffee7f-30e6-4264-881b-6d9d411112ce" width="744" height="504" frameborder="0" title="scripter" webkitallowfullscreen mozallowfullscreen allowfullscreen autoplay></iframe>
+  </div>
+
   <p>
     Scripter is a command-line program that allows you to enter editor mode and save the changes. It provides a basic text editor experience with features such as navigating through the text, inserting new lines, and saving the changes to a file. Mainly created for HTML CSS AND JS. Create your own programming experience with Scripter!
   </p>
@@ -80,7 +95,7 @@
   
   <h3>Installation</h3>
   <p>
-    Click on download button , Extract the Zip and run Scripter.exe
+    Click on download button, Extract the Zip and run Scripter.exe
   </p>
    <h2>Editor Mode</h2>
   <p>
